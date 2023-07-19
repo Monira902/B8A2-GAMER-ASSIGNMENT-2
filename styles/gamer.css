@@ -248,3 +248,52 @@ nav li a {
      font-size: 0.7em;
      font-weight: 10px;
 }
+/* .....................FOOTER STYLE................ */
+footer{
+     background-color: #0B0223;
+     padding: 80px 0px;
+}
+.footer-title > ul{
+     
+     color: #FFF;
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+/* .footer-title > li{
+     margin-right: 50px;
+} */
+.title-image{
+     font-size: 1.5em;
+     font-weight: 100px;
+}
+.footer-subtitle > ul{
+     font-size: 0.7em;
+     color: #FFF;
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+.footer-images > ul{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+
+}
+.footer-description > ul{
+     font-size: 0.5em;
+     color: #ffffff59;
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+
+}
+.footer-end{
+     font-size: 0.4em;
+     color: #ffffff62;
+     text-align: center;
+}
