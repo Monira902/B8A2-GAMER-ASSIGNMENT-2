@@ -154,7 +154,21 @@ nav li a {
      text-align: right;
 }
 /* ..........MAIN PART FIRST SLIDE STYLE............ */
+.funny{
+     font-size: 1em;
+     color: rgb(173, 53, 173);
+}
 .card{
      display: flex;
-     gap: 10px;
+     gap: 15px;
+     /* text-align: center; */
+     margin: 20px 100px 20px 140px;
+     /* border: 2px solid red; */
+     padding: 0 100px;
+}
+.main-first-slide{
+     margin-top: 45px;
+}
+.slide-title{
+     text-align: center;
 }
