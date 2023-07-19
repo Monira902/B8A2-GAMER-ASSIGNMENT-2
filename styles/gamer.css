@@ -153,3 +153,8 @@ nav li a {
 .banner-2{
      text-align: right;
 }
+/* ..........MAIN PART FIRST SLIDE STYLE............ */
+.card{
+     display: flex;
+     gap: 10px;
+}
