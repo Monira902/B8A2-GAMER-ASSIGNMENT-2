@@ -215,18 +215,20 @@ nav li a {
 .main-third-slide{
      border: 2px solid blue;
      background-color: rgba(239, 218, 226, 0.234);
-     padding: 0px 100px 0px 100px;
+     padding: 5px 10px 5px 160px;
 }
 .first-row {
      display: flex;
      /* gap: 2px; */
      /* text-align: center; */
-     align-items: center;
+     /* align-items: center; */
 }
 
 .second-row {
+     /* padding-right: 200px; */
      display: flex;
-     align-items: center;
+     /* align-items: center; */
+     
 }
 
 .icon-par>ul {
@@ -236,7 +238,7 @@ nav li a {
 
 .icon-par li {
      list-style: none;
-     margin-right: 30px;
+     margin-right: 5px;
     
 
 }
@@ -244,4 +246,5 @@ nav li a {
 .paragraph-2 {
      color: #0B0223;
      font-size: 0.7em;
+     font-weight: 10px;
 }
