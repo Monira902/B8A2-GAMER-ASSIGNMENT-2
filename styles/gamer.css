@@ -17,7 +17,7 @@ nav {
      justify-content: space-between;
      align-items: center;
      background-color: #FFF;
-     padding: 1px 100px;
+     padding: 1px 200px;
 }
 
 
@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-title-gamer {
-     font-size: 20px;
+     font-size: 30px;
      font-weight: 300;
 }
 
@@ -77,7 +77,7 @@ nav li a {
      /* padding: 40px 100px; */
      text-align: center;
      align-items: center;
-     gap: 200px;
+     gap: 300px;
      background-image: url(../images/Group\ 14.png);
      background-repeat: no-repeat;
      background-position: left;
@@ -88,23 +88,24 @@ nav li a {
 .banner {
      /* background-image: url(../images/Group\ 14.png); */
      margin-left: 0;
-     padding: 100px;
+     padding-left: 200px;
 
 
 }
 
 .banner-image {
      padding-right: 100px;
+     
 }
 
 .banner-title {
-     font-size: 2em;
+     font-size: 3em;
      font-weight: 600;
 
 }
 
 .banner-subtitle {
-     font-size: 4em;
+     font-size: 6em;
      font-weight: 800;
      color: rgb(218, 125, 218);
      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -117,7 +118,7 @@ nav li a {
 .paragraph {
      color: #534C64;
 
-     font-size: 11px;
+     font-size: 20px;
 
      font-weight: 500;
 
@@ -125,18 +126,24 @@ nav li a {
 
 .btn-pink {
      color: #FFFFFF;
-     padding: 11px 25px;
+     padding: 22px 45px;
      border-radius: 48px;
      background-color: #FF42A5;
      border: none;
+     font-size: 1.5em;
 }
 
 .btn-blue {
      color: #FFFFFF;
-     padding: 11px 25px;
+     padding: 22px 45px;
      border-radius: 48px;
      background-color: #78C1F3;
      border: none;
+     font-size: 1.5em;
+}
+.another-one{
+     font-size: 2em;
+     color: #534C64;
 }
 
 /* ..........BANNER STYLE-2............ */
@@ -144,14 +151,14 @@ nav li a {
      display: flex;
      align-items: center;
      background-color: rgba(239, 218, 226, 0.234);
-     padding: 0 50px;
+     padding: 20px 50px;
      gap: 100px;
      justify-content: center;
 
 }
 
 .banner-title-2 {
-     font-size: 1.5em;
+     font-size: 3em;
      color: rgb(173, 53, 173);
 
 }
@@ -188,7 +195,7 @@ nav li a {
 /* ...........MAIN PART SECOND SLIDE STYLE........... */
 .main-second-slide {
      /* border: 2px solid red; */
-     margin: 30px 150px 10px 200px;
+     margin: 100px 150px 0px 200px;
 }
 
 .second-slide {
@@ -203,6 +210,9 @@ nav li a {
      padding-top: 100px;
 
 }
+.title{
+     font-size: 3em;
+}
 
 /* >>>>>>>>>>>style for placeing one image above anoter one>>>>>>>>*/
 .first-image {
@@ -211,7 +221,7 @@ nav li a {
 
 .second-image {
      position: relative;
-     bottom: 150px;
+     bottom: 290px;
 }
 
 /* >>>>>>>>>style for placeing one image above anoter one>>>>>>>>> */
@@ -220,7 +230,7 @@ nav li a {
 .main-third-slide {
      /* border: 2px solid blue; */
      background-color: rgba(239, 218, 226, 0.234);
-     padding: 50px 10px 50px 160px;
+     padding: 90px 10px 90px 160px;
 }
 
 .first-row {
@@ -244,21 +254,22 @@ nav li a {
 
 .icon-par li {
      list-style: none;
-     margin-right: 5px;
+     margin-right: 20px;
+     margin-left: 20px;
 
 
 }
 
 .paragraph-2 {
      color: #0B0223;
-     font-size: 0.7em;
-     font-weight: 10px;
+     font-size: 1em;
+     font-weight: 20px;
 }
 
 /* .....................FOOTER STYLE................ */
 footer {
      background-color: #0B0223;
-     padding: 80px 0px;
+     padding: 150px 0px;
 }
 
 .footer-title>ul {
@@ -274,39 +285,39 @@ footer {
      margin-right: 50px;
 } */
 .title-image {
-     font-size: 1.5em;
-     font-weight: 100px;
+     font-size: 6em;
+     font-weight: 500px;
 }
 
 .footer-subtitle>ul {
-     font-size: 0.7em;
+     font-size: 1.2em;
      color: #FFF;
      list-style: none;
      display: flex;
      justify-content: center;
-     gap: 20px;
+     gap: 30px;
 }
 
 .footer-images>ul {
      list-style: none;
      display: flex;
      justify-content: center;
-     gap: 20px;
+     gap: 30px;
 
 }
 
 .footer-description>ul {
-     font-size: 0.5em;
+     font-size: 1em;
      color: #ffffff59;
      list-style: none;
      display: flex;
      justify-content: center;
-     gap: 20px;
+     gap: 30px;
 
 }
 
 .footer-end {
-     font-size: 0.4em;
+     font-size: 1em;
      color: #ffffff62;
      text-align: center;
 }
