@@ -177,16 +177,25 @@ nav li a {
 /* ...........MAIN PART SECOND SLIDE STYLE........... */
 .main-second-slide{
      border: 2px solid red;
-     margin: 30px 150px 20px 150px;
+     margin: 30px 150px 10px 200px;
 }
 .second-slide{
      display: flex;
      justify-content: center;
-     gap: 250px;
+     gap: 100px;
      
 }
 .texts{
      text-align: right;
-     padding-top: 50px;
+     padding-top: 60px;
      
 }
+/* ......style for placeing one image above anoter one..... */
+.first-image{
+     margin-left: 50px;
+}
+.second-image{
+     position: relative;
+     bottom: 100px;
+}
+/* ......style for placeing one image above anoter one..... */
