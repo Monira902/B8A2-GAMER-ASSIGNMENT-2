@@ -8,9 +8,7 @@
      font-family: 'Work Sans', sans-serif;
 }
 
-header {
-     
-}
+header {}
 
 /* ............NAV STYLE.............. */
 
@@ -102,7 +100,7 @@ nav li a {
 .banner-title {
      font-size: 2em;
      font-weight: 600;
-     
+
 }
 
 .banner-subtitle {
@@ -135,32 +133,37 @@ nav li a {
      background-color: #78C1F3;
      border: none;
 }
+
 /* ..........BANNER STYLE-2............ */
-.banner-part-2{
+.banner-part-2 {
      display: flex;
      align-items: center;
      background-color: rgba(239, 218, 226, 0.234);
      padding: 0 50px;
      gap: 100px;
      justify-content: center;
-        
-     }
-.banner-title-2{
+
+}
+
+.banner-title-2 {
      font-size: 1.5em;
      color: rgb(173, 53, 173);
-    
+
 }
-.banner-2{
+
+.banner-2 {
      text-align: right;
 }
+
 /* ..........MAIN PART FIRST SLIDE STYLE............ */
 
 
-.funny{
+.funny {
      font-size: 1em;
      color: rgb(173, 53, 173);
 }
-.card{
+
+.card {
      display: flex;
      gap: 15px;
      /* text-align: center; */
@@ -168,34 +171,77 @@ nav li a {
      /* border: 2px solid red; */
      padding: 0 100px;
 }
-.main-first-slide{
+
+.main-first-slide {
      margin-top: 45px;
 }
-.slide-title{
+
+.slide-title {
      text-align: center;
 }
+
 /* ...........MAIN PART SECOND SLIDE STYLE........... */
-.main-second-slide{
+.main-second-slide {
      border: 2px solid red;
      margin: 30px 150px 10px 200px;
 }
-.second-slide{
+
+.second-slide {
      display: flex;
      justify-content: center;
      gap: 100px;
-     
+
 }
-.texts{
+
+.texts {
      text-align: right;
      padding-top: 60px;
-     
+
 }
-/* ......style for placeing one image above anoter one..... */
-.first-image{
+
+/* >>>>>>>>>>>style for placeing one image above anoter one>>>>>>>>*/
+.first-image {
      margin-left: 50px;
 }
-.second-image{
+
+.second-image {
      position: relative;
      bottom: 100px;
 }
-/* ......style for placeing one image above anoter one..... */
+
+/* >>>>>>>>>style for placeing one image above anoter one>>>>>>>>> */
+
+/*............... MAIN PART THIRD SLIDE STYLE............. */
+.main-third-slide{
+     border: 2px solid blue;
+     background-color: rgba(239, 218, 226, 0.234);
+     padding: 0px 100px 0px 100px;
+}
+.first-row {
+     display: flex;
+     /* gap: 2px; */
+     /* text-align: center; */
+     align-items: center;
+}
+
+.second-row {
+     display: flex;
+     align-items: center;
+}
+
+.icon-par>ul {
+     display: flex;
+
+}
+
+.icon-par li {
+     list-style: none;
+     margin-right: 30px;
+    
+
+}
+
+.paragraph-2 {
+     color: #0B0223;
+     font-size: 0.7em;
+}
