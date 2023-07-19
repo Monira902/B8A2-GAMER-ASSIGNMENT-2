@@ -154,6 +154,8 @@ nav li a {
      text-align: right;
 }
 /* ..........MAIN PART FIRST SLIDE STYLE............ */
+
+
 .funny{
      font-size: 1em;
      color: rgb(173, 53, 173);
@@ -171,4 +173,20 @@ nav li a {
 }
 .slide-title{
      text-align: center;
+}
+/* ...........MAIN PART SECOND SLIDE STYLE........... */
+.main-second-slide{
+     border: 2px solid red;
+     margin: 30px 150px 20px 150px;
+}
+.second-slide{
+     display: flex;
+     justify-content: center;
+     gap: 250px;
+     
+}
+.texts{
+     text-align: right;
+     padding-top: 50px;
+     
 }
