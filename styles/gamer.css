@@ -331,3 +331,13 @@ footer {
 
 
 /* >>>>>>>>>>>>>>MAKINFG RESPONSIVE>>>>>>>>>>>> */
+@media screen and (max-width:425px) {
+     .banner-part {
+          max-width: 425px;
+          height: 446px;
+
+          flex-wrap: nowrap;
+          flex-direction: column;
+     }
+
+}
