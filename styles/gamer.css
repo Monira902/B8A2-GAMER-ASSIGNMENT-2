@@ -195,18 +195,18 @@ nav li a {
 
 .texts {
      text-align: right;
-     padding-top: 60px;
+     padding-top: 100px;
 
 }
 
 /* >>>>>>>>>>>style for placeing one image above anoter one>>>>>>>>*/
 .first-image {
-     margin-left: 50px;
+     margin-left: 100px;
 }
 
 .second-image {
      position: relative;
-     bottom: 100px;
+     bottom: 150px;
 }
 
 /* >>>>>>>>>style for placeing one image above anoter one>>>>>>>>> */
@@ -215,7 +215,7 @@ nav li a {
 .main-third-slide{
      /* border: 2px solid blue; */
      background-color: rgba(239, 218, 226, 0.234);
-     padding: 5px 10px 5px 160px;
+     padding: 50px 10px 50px 160px;
 }
 .first-row {
      display: flex;
@@ -296,4 +296,12 @@ footer{
      font-size: 0.4em;
      color: #ffffff62;
      text-align: center;
+}
+
+
+/*>>>>>>>>>>>>>>>BONUS MAEK>>>>>>>>>>>>>>>>> */
+.icon-par:hover{
+     border: 2px solid pink;
+     border-radius: 50px;
+     background-color: #ffd0d0c4;
 }
