@@ -8,7 +8,9 @@
      font-family: 'Work Sans', sans-serif;
 }
 
-header {}
+header {
+     
+}
 
 /* ............NAV STYLE.............. */
 
@@ -61,6 +63,7 @@ nav li a {
      align-items: center;
      border-radius: 8px;
      background: rgba(11, 2, 35, 0.10);
+     padding: 3px 2px 0 2px;
 }
 
 .nav-about {
@@ -69,14 +72,14 @@ nav li a {
 
 
 
-/* ............BANNER STYLE................ */
+/* ............BANNER STYLE-1................ */
 .banner-part {
      display: flex;
      /* background-color: rgb(241, 234, 240); */
      /* padding: 40px 100px; */
      text-align: center;
      align-items: center;
-     gap: 20px;
+     gap: 200px;
      background-image: url(../images/Group\ 14.png);
      background-repeat: no-repeat;
      background-position: left;
@@ -131,4 +134,22 @@ nav li a {
      border-radius: 48px;
      background-color: #78C1F3;
      border: none;
+}
+/* ..........BANNER STYLE-2............ */
+.banner-part-2{
+     display: flex;
+     align-items: center;
+     background-color: rgba(239, 218, 226, 0.234);
+     padding: 0 50px;
+     gap: 100px;
+     justify-content: center;
+        
+     }
+.banner-title-2{
+     font-size: 1.5em;
+     color: rgb(173, 53, 173);
+    
+}
+.banner-2{
+     text-align: right;
 }
