@@ -107,6 +107,11 @@ nav li a {
      font-size: 4em;
      font-weight: 800;
      color: rgb(218, 125, 218);
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
 }
 
 .paragraph {
@@ -212,11 +217,12 @@ nav li a {
 /* >>>>>>>>>style for placeing one image above anoter one>>>>>>>>> */
 
 /*............... MAIN PART THIRD SLIDE STYLE............. */
-.main-third-slide{
+.main-third-slide {
      /* border: 2px solid blue; */
      background-color: rgba(239, 218, 226, 0.234);
      padding: 50px 10px 50px 160px;
 }
+
 .first-row {
      display: flex;
      /* gap: 2px; */
@@ -228,7 +234,7 @@ nav li a {
      /* padding-right: 200px; */
      display: flex;
      /* align-items: center; */
-     
+
 }
 
 .icon-par>ul {
@@ -239,7 +245,7 @@ nav li a {
 .icon-par li {
      list-style: none;
      margin-right: 5px;
-    
+
 
 }
 
@@ -248,27 +254,31 @@ nav li a {
      font-size: 0.7em;
      font-weight: 10px;
 }
+
 /* .....................FOOTER STYLE................ */
-footer{
+footer {
      background-color: #0B0223;
      padding: 80px 0px;
 }
-.footer-title > ul{
-     
+
+.footer-title>ul {
+
      color: #FFF;
      list-style: none;
      display: flex;
      justify-content: center;
      gap: 20px;
 }
+
 /* .footer-title > li{
      margin-right: 50px;
 } */
-.title-image{
+.title-image {
      font-size: 1.5em;
      font-weight: 100px;
 }
-.footer-subtitle > ul{
+
+.footer-subtitle>ul {
      font-size: 0.7em;
      color: #FFF;
      list-style: none;
@@ -276,14 +286,16 @@ footer{
      justify-content: center;
      gap: 20px;
 }
-.footer-images > ul{
+
+.footer-images>ul {
      list-style: none;
      display: flex;
      justify-content: center;
      gap: 20px;
 
 }
-.footer-description > ul{
+
+.footer-description>ul {
      font-size: 0.5em;
      color: #ffffff59;
      list-style: none;
@@ -292,7 +304,8 @@ footer{
      gap: 20px;
 
 }
-.footer-end{
+
+.footer-end {
      font-size: 0.4em;
      color: #ffffff62;
      text-align: center;
@@ -300,8 +313,21 @@ footer{
 
 
 /*>>>>>>>>>>>>>>>BONUS MAEK>>>>>>>>>>>>>>>>> */
-.icon-par:hover{
+.icon-par:hover {
      border: 2px solid pink;
      border-radius: 50px;
      background-color: #ffd0d0c4;
 }
+
+.card-images img:hover {
+     opacity: 0.5;
+     border: 4px solid red;
+     border-radius: 15px;
+
+
+
+
+}
+
+
+/* >>>>>>>>>>>>>>MAKINFG RESPONSIVE>>>>>>>>>>>> */
